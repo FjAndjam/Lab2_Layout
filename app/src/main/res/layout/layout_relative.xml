@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="RED"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView"
+            android:background="#ff0d00"/>
+
+        <TextView
+            android:text="ORANGE"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ff8400"/>
+
+        <TextView
+            android:text="YELLOW"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#ffdd00"/>
+
+        <TextView
+            android:text="BLUE"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/textView6"
+            android:layout_marginTop="104dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:background="#0008fa"/>
+
+        <TextView
+            android:text="VIOLET"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/textView7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#f0f"/>
+
+        <TextView
+            android:text="GREEN"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/textView5"
+            android:background="#05df0c"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <TextView
+            android:text="INDIGO"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/textView4"
+            android:background="#9b129b"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
